@@ -1,0 +1,106 @@
+/* 共通部分 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'pokemon-font', monospace;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+img {
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* メイン画面 */
+
+header, main, footer {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#main {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.box {
+    width: 50%;
+    display: inline-block;
+    border: 1px dotted gray;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #CBCCAA;
+    cursor: pointer;
+}
+
+.back-btn {
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+}
+
+.back-btn img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.back-btn p {
+    width: max-content;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 20px;
+    color: yellow;
+}
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+}
+
+/* 詳細画面 */
+
+#details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 6px solid #696B56;
+    border-right: 6px solid #696B56;
+    border-left: 6px solid #696B56;
+    box-sizing: border-box;
+    background-color: #CBCCAA;
+}
+
+.img-box {
+    text-align: center;
+    padding: 5px 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.details-box {
+    display: grid;
+    align-items: flex-end;
+    padding: 5px 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.flavor-text-box {
+    background-color: #CBCCAA;
+    padding: 25px;
+    border: 6px solid#696B56;
+    border-top: 3px solid#696B56;
+}
