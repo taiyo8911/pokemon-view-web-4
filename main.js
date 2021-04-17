@@ -4,7 +4,7 @@ const num = 151; //表示したい画像の数
 async function callApi() {
     for (i = 1; i <= num; i++) {
         // APIでjsonを取得する
-        var res = await fetch("https://pokeapi.co/api/v2/pokemon-species/" + i);
+        var res = await fetch("https://pokeapi.co/api/v2/pokemon-species/" + i + "/");
         var data = await res.json();
 
         // ID、名前、画像URLを取得する
